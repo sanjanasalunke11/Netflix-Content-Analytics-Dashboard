@@ -9,13 +9,19 @@
 
 </p>
 
+<h1 align="center">🎬 Netflix Content Analytics Dashboard</h1>
+
+<p align="center">
+An interactive <b>Power BI Dashboard</b> that provides valuable insights into Netflix's content library through engaging visualizations and interactive filtering.
+</p>
+
 ---
 
-# 📖 Overview
+# 📖 Project Overview
 
-The **Netflix Content Analytics Dashboard** is an interactive Business Intelligence project built using **Microsoft Power BI**. The dashboard analyzes Netflix's content library, providing meaningful insights into movies, TV shows, genres, ratings, countries, and content growth over time.
+The **Netflix Content Analytics Dashboard** is a Business Intelligence project developed using **Microsoft Power BI**. It analyzes Netflix's content catalog to uncover trends, compare Movies vs TV Shows, visualize content distribution across countries, and explore genres, ratings, and yearly content additions.
 
-Designed with a **Netflix-inspired dark theme**, the dashboard combines powerful DAX calculations, Power Query transformations, and interactive visualizations to help users explore Netflix content efficiently.
+The dashboard features a **Netflix-inspired dark theme** with interactive slicers, making data exploration simple and intuitive.
 
 ---
 
@@ -24,15 +30,15 @@ Designed with a **Netflix-inspired dark theme**, the dashboard combines powerful
 ## 🎯 Complete Dashboard
 
 <p align="center">
-<img src="images/dashboard.png" width="100%">
+<img src="images/Screenshot%202026-08-05%20195301.png" width="100%">
 </p>
 
 ---
 
-## 📍 Netflix Content by Country & Rating Distribution
+## 🌍 Netflix Content by Country & Content Rating Distribution
 
 <p align="center">
-<img src="images/dashboard_top.png" width="100%">
+<img src="images/Screenshot%202026-08-05%20195225.png" width="100%">
 </p>
 
 ---
@@ -40,22 +46,28 @@ Designed with a **Netflix-inspired dark theme**, the dashboard combines powerful
 ## 📊 Top Genres & Content Added Over Time
 
 <p align="center">
-<img src="images/dashboard_bottom_left.png" width="49%">
-<img src="images/dashboard_bottom_center.png" width="49%">
+<img src="images/Screenshot%202026-08-05%20195122.png" width="100%">
 </p>
 
 ---
 
-## 🌍 Top Countries & Movie vs TV Show Distribution
+## 🌎 Top Countries & Movie vs TV Show Distribution
 
 <p align="center">
-<img src="images/dashboard_bottom_right.png" width="49%">
-<img src="images/dashboard_donut.png" width="49%">
+<img src="images/Screenshot%202026-08-05%20195025.png" width="100%">
 </p>
 
 ---
 
-# 🚀 Features
+## 🎛 Interactive Dashboard with Filters
+
+<p align="center">
+<img src="images/Screenshot%202026-08-05%20194918.png" width="100%">
+</p>
+
+---
+
+# ✨ Dashboard Features
 
 - 📈 KPI Cards
   - Total Titles
@@ -65,32 +77,45 @@ Designed with a **Netflix-inspired dark theme**, the dashboard combines powerful
   - Genres
 
 - 🌍 Interactive World Map
-
 - 🍩 Movie vs TV Show Distribution
-
 - 🎭 Top 10 Genres
-
 - 🌎 Top 10 Countries
-
 - 📅 Content Added to Netflix Over Time
-
-- 🎨 Content Rating Distribution (Treemap)
-
-- 🎛 Interactive Filters
+- 🎨 Content Rating Distribution
+- 🎛 Interactive Slicers
   - Country
   - Type
   - Rating
   - Year
-
-- 🎬 Netflix-inspired Dark UI
+- 🌑 Netflix-inspired Dark Theme
 
 ---
 
-# 🛠 Technologies Used
+# 📊 Key Insights
+
+- 🎬 **8,809** Total Titles
+- 🎥 **6,131** Movies
+- 📺 **2,676** TV Shows
+- 🌍 **124** Countries
+- 🎭 **43** Genres
+
+The dashboard helps users to:
+
+- Compare Movies and TV Shows
+- Explore Netflix's global content distribution
+- Identify the most popular genres
+- Analyze yearly content additions
+- Understand content ratings
+- Filter insights interactively
+
+---
+
+# 🛠 Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
 - DAX (Data Analysis Expressions)
+- Data Modeling
 - Data Cleaning
 - Data Transformation
 - Data Visualization
@@ -102,7 +127,7 @@ Designed with a **Netflix-inspired dark theme**, the dashboard combines powerful
 
 **Dataset:** Netflix Movies & TV Shows
 
-The dataset includes:
+The dataset contains:
 
 - Show ID
 - Type
@@ -114,41 +139,35 @@ The dataset includes:
 - Release Year
 - Rating
 - Duration
-- Genre
+- Listed In (Genre)
 - Description
 
 ---
 
-# 📈 Key Insights
+# 📈 Dashboard Components
 
-- 🎬 **Total Titles:** 8,809
-- 🎥 **Movies:** 6,131
-- 📺 **TV Shows:** 2,676
-- 🌍 **Countries:** 124
-- 🎭 **Genres:** 43
-
-The dashboard enables users to:
-
-- Compare Movies and TV Shows
-- Explore content distribution across countries
-- Analyze the most popular genres
-- Track yearly content additions
-- Study Netflix content ratings
-- Filter insights interactively
+| Visualization | Description |
+|---------------|-------------|
+| KPI Cards | Quick overview of Netflix content |
+| World Map | Country-wise content distribution |
+| Donut Chart | Movies vs TV Shows |
+| Treemap | Content Rating Distribution |
+| Bar Charts | Top Genres & Top Countries |
+| Line Chart | Content Added Over Time |
+| Slicers | Interactive dashboard filtering |
 
 ---
 
-# 📊 Dashboard Components
+# 💡 Skills Demonstrated
 
-| Visualization | Purpose |
-|--------------|---------|
-| KPI Cards | Quick business overview |
-| World Map | Country-wise content distribution |
-| Donut Chart | Movies vs TV Shows |
-| Treemap | Rating Distribution |
-| Bar Charts | Top Genres & Countries |
-| Line Chart | Content Growth Over Time |
-| Slicers | Interactive Filtering |
+- Power BI Dashboard Development
+- Data Cleaning using Power Query
+- DAX Measures
+- Data Modeling
+- Business Intelligence
+- Interactive Dashboard Design
+- Data Storytelling
+- Data Visualization
 
 ---
 
@@ -163,45 +182,37 @@ Netflix-Content-Analytics-Dashboard/
 ├── LICENSE
 │
 └── images/
-    ├── dashboard.png
-    ├── dashboard_top.png
-    ├── dashboard_bottom_left.png
-    ├── dashboard_bottom_center.png
-    ├── dashboard_bottom_right.png
-    └── dashboard_donut.png
+    ├── Screenshot 2026-08-05 194918.png
+    ├── Screenshot 2026-08-05 195025.png
+    ├── Screenshot 2026-08-05 195122.png
+    ├── Screenshot 2026-08-05 195225.png
+    └── Screenshot 2026-08-05 195301.png
 ```
 
 ---
 
-# 💡 Skills Demonstrated
-
-- Power BI Dashboard Development
-- Data Cleaning using Power Query
-- DAX Measures
-- Data Modeling
-- Interactive Dashboard Design
-- Business Intelligence
-- Data Visualization
-- Storytelling with Data
-
----
-
-# 🔮 Future Improvements
+# 🚀 Future Improvements
 
 - Drill-through Pages
 - Dynamic Tooltips
 - Bookmark Navigation
-- Mobile Layout
-- Forecasting
+- Mobile Dashboard Layout
 - AI-powered Insights
+- Forecasting Visuals
 
 ---
 
-# ⭐ If you found this project helpful
+# 🤝 Contributing
 
-Please consider giving this repository a ⭐.
+Contributions, suggestions, and improvements are welcome!
 
-Feedback and suggestions are always welcome!
+If you find this project useful:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+🛠 Submit a Pull Request
 
 ---
 
@@ -209,16 +220,28 @@ Feedback and suggestions are always welcome!
 
 ## **Sanjana Salunke**
 
-**Data Science Student | Power BI | SQL | Python | Machine Learning**
+**Data Science Student | Power BI | Python | SQL | Machine Learning**
 
-🔗 **LinkedIn:**  
+### 🔗 Connect with me
+
+**LinkedIn**
+
 https://www.linkedin.com/in/sanjana-salunke-023998298/
 
-💻 **GitHub:**  
+**GitHub**
+
 https://github.com/sanjanasalunke11
+
+---
+
+# ⭐ Support
+
+If you liked this project, don't forget to ⭐ **Star** this repository!
+
+It motivates me to create more Data Analytics and Power BI projects.
 
 ---
 
 # 📜 License
 
-This project is created for educational and portfolio purposes.
+This project is intended for educational and portfolio purposes only.
