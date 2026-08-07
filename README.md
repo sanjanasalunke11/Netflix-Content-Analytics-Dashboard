@@ -27,7 +27,7 @@ The dashboard features a **Netflix-inspired dark theme** with interactive slicer
 
 # 📸 Dashboard Preview
 
-## 🎯 Complete Dashboard
+## 🎯 Complete Dashboard 
 
 <p align="center">
 <img src="images/Screenshot%202026-08-05%20195301.png" width="100%">
@@ -91,7 +91,7 @@ The dashboard features a **Netflix-inspired dark theme** with interactive slicer
 
 ---
 
-# 📊 Key Insights
+# 📊 Key Insight
 
 - 🎬 **8,809** Total Titles
 - 🎥 **6,131** Movies
